@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>List Application</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+	<script src="https://code.jquery.com/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="https://use.fontawesome.com/0dbbf34cb5.js"></script>
+</head>
+<body class="main">
+	<div class="header">
+		<h1>Shopping List</h1>
+	</div>
+	<div class="delList">
+		<button type="button">New List</button>
+	</div>
+	<form class="addItem" novalidate>
+  		<input type="text" id="itemName" autofocus size="40" required> 
+  		<button id = "addItemButton" type="submit">Add Item</button>
+	</form>
+	<div id="warningDiv">
+		<label id="warningText"> </label>
+	</div>
+	<div class="listWindow">
+		<ul id = "list">
+			<li class = "listItem base"> 
+				<input class="liCheckBox" type="checkbox" />
+				<label class="listText">Long First Item</label>
+				<i class="delete fa fa-trash-o" aria-hidden="true"></i>
+			</li>
+			<li class = "listItem"> 
+				<input class="liCheckBox" type="checkbox" />
+				<label class="listText">Long First Item</label>
+				<i class="delete fa fa-trash-o" aria-hidden="true"></i>
+			</li>
+  		</ul>
+	</div>
+	<div id = "deleteCheckedDiv">
+		<button id = "deleteCheckedButton" type="button">Delete Checked Items</button>
+	</div>
+</body>
+</html> 

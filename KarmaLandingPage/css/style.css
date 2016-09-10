@@ -1,0 +1,176 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+div {
+    /*border: 1px solid Chocolate;*/
+}
+.content{
+    width: 970px;	
+    margin: 0 auto;
+    color: white;
+}
+
+/* Navigation Section */
+.top-navigation {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+.top-navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+.top-navigation > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+    padding: 0px 30px;
+    box-sizing: border-box;
+}
+.top-navigation .logo {
+	margin-top: 13px;
+}
+.introduction {
+    background-image: url('../images/background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
+.introduction h1, .introduction h3{
+	color: white;
+	text-align: center;
+	font-weight: 300;
+}
+.introduction h1{
+	font-size: 3.125 rem;
+	margin-top: 225px;
+}
+.introduction h3{
+	margin-top: 1.25 rem;
+	font-size: 1.563 rem;
+}
+button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    color: white;
+    width: 9.688rem;
+    margin-top: 20px;
+}
+.introduction .buttons{
+	margin-top: 50 rem;
+	margin: 0 auto;
+	align-content: center;
+	text-align: center;
+}
+.cases{
+    font-color: black;
+    background-color: white;
+}
+.cases h2{
+    color: black;
+ 	text-align: center;
+	font-weight: 300;
+	font-size: 2.75rem;
+}
+.cases .devices{
+    width: 33.3333333%;
+    display: inline-block;
+    margin-right: -4px;
+    /* styles to assist with debugging */
+    /*border: 1px solid black;*/
+    box-sizing: border-box;
+    text-align: center;
+    height: 4em;
+}
+.cases .devices h3{
+	color: black;
+ 	text-align: center;
+ 	font-weight: 400;
+	font-size: 1.563rem;
+}
+
+/**
+ * Footer
+ */
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
+
+.social .icons {
+	padding: 0;
+	margin: 0;
+}
+
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+.social .icons > li:hover {
+    cursor: pointer;
+}
+.social .twitter {
+    color: #55acee;
+}
+.social .facebook {
+    color: #4c66a4;
+}
+.social .instagram {
+    color: #3f729b;
+}
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}
+
+.social h5 {
+	color: black;
+	margin: 0;
+	font-weight: 400;
+	font-size: 1rem;
+}
